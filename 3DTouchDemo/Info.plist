@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MyString</key>
+	<string>使用主屏幕快捷操作应提供富有吸引力的，高价值的任务。例如，用户可以在没有打开地图应用程序就搜索当前位置的附近或获取回家的路线。每个应用程序在主屏幕上提供的快捷操作至少有一个有用的任务; 你最多可以提供四个快捷操作。 
+
+ 
+
+避免使用主屏幕上的快捷操作来缓解您的应用程序的导航问题。如果是因为用户访问你的应用程序的重要内容很困难或耗费时间，来使用主屏幕快捷操作，那么首先应该解决的应该是应用程序的导航问题，使所有用户受益。接下来，再专注优化主屏幕上的快捷操作，深层链接到您的应用程序更有用的，有创造性的任务。 
+
+ 
+
+应避免更改主屏幕快捷操作方式让用户很难预测。让用户快速理解是基于事件或上下文的改变更新是最好的方式。例如，它很有意义，在你的应用中一天时间里或在用户设置改变时，更新是基于用户当前的位置或最近的活动。 
+
+ 
+
+不要使用主屏幕上快捷操作来通知用户。iOS 用户希望从其他途径获取通知。（来了解这些方法，请参阅 通知）。 
+
+ 
+
+为每个主屏幕上的快捷操作设置模板图标，并提供简明的标题（和副标题）。标题应表达操作的结果; 例如，「回家」，「新建联系人」和「新邮件」。为用户提供更多的内容您也可以提供可选的副标题。例如，邮件使用副标题，告诉用户在VIP主屏幕快捷操作是否有的任何未读邮件。不要在标题和副标题显示您的应用程序名称和任何无关的信息，并要尽量采取本土化的文字说明。 
+
+ 
+
+保持标题尽可能短以避免系统截断非常重要，这会帮助用户快速理解快捷操作。如果你提供一个副标题，系统因为标题太长而截断，就无法放在同一行; 如果没有副标题，系统会把一个长标题折叠到第二行。 
+
+ 
+
+您可以从许多系统提供的模板图标中选择，也可以创建自定义模板图标。有关图标大小，填充和定位的详细指导，可以下载主屏幕快捷操作图标模板（附件中）。若要了解更多有关设计模板图标，请参阅模板图标。 
+
+ 
+
+系统会自动的在图标左侧或右侧显示快捷操作列表，这取决于用户主屏幕上的应用图标的位置。（列表中图标的位置，文本总是左对齐的。）下面你可以看到在主屏幕上各种快捷操作的例子。 </string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeHome</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>首页</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.che.homePage</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeSearch</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>搜索</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.che.search</string>
+		</dict>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<false/>
+	<key>UIStatusBarHidden</key>
+	<false/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>
