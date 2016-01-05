@@ -61,6 +61,7 @@
     // 此处建议每次调用的时候，就执行一次pop to root view方法，防止有多个push导致用户需要多次返回。
     [self.rootViewController popToRootViewControllerAnimated:NO];
     PeekDemoViewController *vc = [[PeekDemoViewController alloc] init];
+    vc.preferredContentSize = CGSizeMake(0, 320);
     vc.text = message;
     [self.rootViewController pushViewController:vc animated:YES];
     if (completionHandler) {
