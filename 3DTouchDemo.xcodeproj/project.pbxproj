@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		FB07EFD81C3A627E00B6FA40 /* PeekDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB07EFD71C3A627E00B6FA40 /* PeekDemoViewController.m */; };
 		FB07EFDB1C3A7BE300B6FA40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB07EFD91C3A7BE300B6FA40 /* LaunchScreen.storyboard */; };
+		FB52509D1C3CC02F00485C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB52509C1C3CC02F00485C59 /* main.m */; };
+		FB5250A01C3CC02F00485C59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB52509F1C3CC02F00485C59 /* AppDelegate.m */; };
+		FB5250A31C3CC02F00485C59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5250A21C3CC02F00485C59 /* ViewController.m */; };
+		FB5250A61C3CC02F00485C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5250A41C3CC02F00485C59 /* Main.storyboard */; };
+		FB5250A81C3CC02F00485C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5250A71C3CC02F00485C59 /* Assets.xcassets */; };
+		FB5250AB1C3CC02F00485C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5250A91C3CC02F00485C59 /* LaunchScreen.storyboard */; };
+		FB5250B51C3CE4F400485C59 /* CHPreviewAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5250B41C3CE4F400485C59 /* CHPreviewAssistant.m */; };
+		FB5250BA1C3D0E6500485C59 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5250B91C3D0E6500485C59 /* QuartzCore.framework */; };
 		FB6A1F9E1C3A475B00ABFAD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1F9D1C3A475B00ABFAD5 /* main.m */; };
 		FB6A1FA11C3A475B00ABFAD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1FA01C3A475B00ABFAD5 /* AppDelegate.m */; };
 		FB6A1FA41C3A475B00ABFAD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1FA31C3A475B00ABFAD5 /* ViewController.m */; };
@@ -19,6 +27,19 @@
 		FB07EFD61C3A627E00B6FA40 /* PeekDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeekDemoViewController.h; sourceTree = "<group>"; };
 		FB07EFD71C3A627E00B6FA40 /* PeekDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeekDemoViewController.m; sourceTree = "<group>"; };
 		FB07EFDA1C3A7BE300B6FA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB5250991C3CC02F00485C59 /* 3DTouchImitates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchImitates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB52509C1C3CC02F00485C59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB52509E1C3CC02F00485C59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB52509F1C3CC02F00485C59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB5250A11C3CC02F00485C59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB5250A21C3CC02F00485C59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB5250A51C3CC02F00485C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5250A71C3CC02F00485C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5250AA1C3CC02F00485C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB5250AC1C3CC02F00485C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5250B31C3CE4F400485C59 /* CHPreviewAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPreviewAssistant.h; sourceTree = "<group>"; };
+		FB5250B41C3CE4F400485C59 /* CHPreviewAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPreviewAssistant.m; sourceTree = "<group>"; };
+		FB5250B91C3D0E6500485C59 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FB6A1F991C3A475B00ABFAD5 /* 3DTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6A1F9D1C3A475B00ABFAD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB6A1F9F1C3A475B00ABFAD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,6 +51,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FB5250961C3CC02F00485C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5250BA1C3D0E6500485C59 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB6A1F961C3A475B00ABFAD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -40,10 +69,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB52509A1C3CC02F00485C59 /* 3DTouchImitates */ = {
+			isa = PBXGroup;
+			children = (
+				FB52509E1C3CC02F00485C59 /* AppDelegate.h */,
+				FB52509F1C3CC02F00485C59 /* AppDelegate.m */,
+				FB5250A11C3CC02F00485C59 /* ViewController.h */,
+				FB5250A21C3CC02F00485C59 /* ViewController.m */,
+				FB5250A41C3CC02F00485C59 /* Main.storyboard */,
+				FB5250A71C3CC02F00485C59 /* Assets.xcassets */,
+				FB5250A91C3CC02F00485C59 /* LaunchScreen.storyboard */,
+				FB5250AC1C3CC02F00485C59 /* Info.plist */,
+				FB52509B1C3CC02F00485C59 /* Supporting Files */,
+				FB5250B31C3CE4F400485C59 /* CHPreviewAssistant.h */,
+				FB5250B41C3CE4F400485C59 /* CHPreviewAssistant.m */,
+			);
+			path = 3DTouchImitates;
+			sourceTree = "<group>";
+		};
+		FB52509B1C3CC02F00485C59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB52509C1C3CC02F00485C59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FB6A1F901C3A475B00ABFAD5 = {
 			isa = PBXGroup;
 			children = (
+				FB5250B91C3D0E6500485C59 /* QuartzCore.framework */,
 				FB6A1F9B1C3A475B00ABFAD5 /* 3DTouchDemo */,
+				FB52509A1C3CC02F00485C59 /* 3DTouchImitates */,
 				FB6A1F9A1C3A475B00ABFAD5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				FB6A1F991C3A475B00ABFAD5 /* 3DTouchDemo.app */,
+				FB5250991C3CC02F00485C59 /* 3DTouchImitates.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +142,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FB5250981C3CC02F00485C59 /* 3DTouchImitates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5250AF1C3CC02F00485C59 /* Build configuration list for PBXNativeTarget "3DTouchImitates" */;
+			buildPhases = (
+				FB5250951C3CC02F00485C59 /* Sources */,
+				FB5250961C3CC02F00485C59 /* Frameworks */,
+				FB5250971C3CC02F00485C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DTouchImitates;
+			productName = 3DTouchImitates;
+			productReference = FB5250991C3CC02F00485C59 /* 3DTouchImitates.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FB6A1F981C3A475B00ABFAD5 /* 3DTouchDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB6A1FB01C3A475B00ABFAD5 /* Build configuration list for PBXNativeTarget "3DTouchDemo" */;
@@ -110,6 +185,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = hejunqiu;
 				TargetAttributes = {
+					FB5250981C3CC02F00485C59 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8652TQR753;
+					};
 					FB6A1F981C3A475B00ABFAD5 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 8652TQR753;
@@ -130,11 +209,22 @@
 			projectRoot = "";
 			targets = (
 				FB6A1F981C3A475B00ABFAD5 /* 3DTouchDemo */,
+				FB5250981C3CC02F00485C59 /* 3DTouchImitates */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FB5250971C3CC02F00485C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5250AB1C3CC02F00485C59 /* LaunchScreen.storyboard in Resources */,
+				FB5250A81C3CC02F00485C59 /* Assets.xcassets in Resources */,
+				FB5250A61C3CC02F00485C59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB6A1F971C3A475B00ABFAD5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,6 +237,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FB5250951C3CC02F00485C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5250A31C3CC02F00485C59 /* ViewController.m in Sources */,
+				FB5250A01C3CC02F00485C59 /* AppDelegate.m in Sources */,
+				FB52509D1C3CC02F00485C59 /* main.m in Sources */,
+				FB5250B51C3CE4F400485C59 /* CHPreviewAssistant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB6A1F951C3A475B00ABFAD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,9 +270,49 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		FB5250A41C3CC02F00485C59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5250A51C3CC02F00485C59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB5250A91C3CC02F00485C59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5250AA1C3CC02F00485C59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FB5250AD1C3CC02F00485C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3DTouchImitates/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.che.ArcViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB5250AE1C3CC02F00485C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3DTouchImitates/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.che.ArcViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		FB6A1FAE1C3A475B00ABFAD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -279,6 +420,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FB5250AF1C3CC02F00485C59 /* Build configuration list for PBXNativeTarget "3DTouchImitates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5250AD1C3CC02F00485C59 /* Debug */,
+				FB5250AE1C3CC02F00485C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		FB6A1F941C3A475B00ABFAD5 /* Build configuration list for PBXProject "3DTouchDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

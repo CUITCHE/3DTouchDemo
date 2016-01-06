@@ -30,7 +30,8 @@
     }
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
 
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -46,7 +47,7 @@
     } else {
         PeekDemoViewController *pdvc = [[PeekDemoViewController alloc] init];
         // 此属性与UIViewController.view.frame相关，但是只有height有效
-        pdvc.preferredContentSize = CGSizeMake(0, 320);
+//        pdvc.preferredContentSize = CGSizeMake(0, 200);
         pdvc.text = _label.text;
         return pdvc;
     }

@@ -17,9 +17,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationItem.title = @"Peek & Pop";
     // 建议将需要pop的controller的view设置成White
     self.view.backgroundColor = [UIColor whiteColor];
-    _textView = [[UITextView alloc] initWithFrame:CGRectMake(0, 20, CGRectGetWidth([UIScreen mainScreen].bounds), self.preferredContentSize.height)];
+    _textView = [[UITextView alloc] initWithFrame:CGRectMake(0, 20, CGRectGetWidth([UIScreen mainScreen].bounds), 300)];
     _textView.text = _text;
     [self.view addSubview:_textView];
 }

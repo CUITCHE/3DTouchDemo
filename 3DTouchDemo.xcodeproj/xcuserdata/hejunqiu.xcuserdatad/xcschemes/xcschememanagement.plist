@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>3DTouchImitates.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FB5250981C3CC02F00485C59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FB6A1F981C3A475B00ABFAD5</key>
 		<dict>
 			<key>primary</key>
