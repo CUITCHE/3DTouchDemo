@@ -30,7 +30,7 @@
     _tableView.dataSource = self;
     [self.view addSubview:_tableView];
 
-    _button = [[UIButton alloc] initWithFrame:CGRectMake(50, 64 + 50, 150, 80)];
+    _button = [[UIButton alloc] initWithFrame:CGRectMake(50, 64 + 150, 150, 80)];
     [_button setTitle:@"UIWindow Test" forState:UIControlStateNormal];
     _button.backgroundColor = [UIColor redColor];
     _button.userInteractionEnabled = YES;
@@ -64,8 +64,27 @@
 {
     if (!_widnow) {
         _widnow = [[CHEffectivePeekWindow alloc] initWithPreviewing:nil];
-        _widnow.previewController = self;
+        _widnow.previewViewController = self;
         [_widnow show];
     }
+}
+
+- (NSArray<id<CHUIPreviewActionItem>> *)CHPreviewActionItems
+{
+    // 生成UIPreviewAction
+    CHUIPreviewAction *action1 = [CHUIPreviewAction actionWithTitle:@"Action 1"
+                                                              style:CHUIPreviewActionStyleDefault
+                                                            handler:^(CHUIPreviewAction * action, UIViewController * previewViewController) {
+                                                                NSLog(@"Action 1 selected");}];
+
+    CHUIPreviewAction *action2 = [CHUIPreviewAction actionWithTitle:@"Action 2"
+                                                              style:CHUIPreviewActionStyleDestructive
+                                                            handler:^(CHUIPreviewAction * action, UIViewController * previewViewController) {
+                                                                NSLog(@"Action 2 selected");}];
+
+    CHUIPreviewAction *action3 = [CHUIPreviewAction actionWithTitle:@"Action 3"
+                                                              style:CHUIPreviewActionStyleSelected
+                                                            handler:^(CHUIPreviewAction * action, UIViewController * previewViewController) { NSLog(@"Action 3 selected");}];
+    return @[action1, action2, action3];
 }
 @end

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FB07EFD81C3A627E00B6FA40 /* PeekDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB07EFD71C3A627E00B6FA40 /* PeekDemoViewController.m */; };
 		FB07EFDB1C3A7BE300B6FA40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB07EFD91C3A7BE300B6FA40 /* LaunchScreen.storyboard */; };
+		FB44C14E1C3E179E00AA06DF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB44C14D1C3E179E00AA06DF /* AudioToolbox.framework */; };
 		FB52509D1C3CC02F00485C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB52509C1C3CC02F00485C59 /* main.m */; };
 		FB5250A01C3CC02F00485C59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB52509F1C3CC02F00485C59 /* AppDelegate.m */; };
 		FB5250A31C3CC02F00485C59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5250A21C3CC02F00485C59 /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		FB5250A81C3CC02F00485C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5250A71C3CC02F00485C59 /* Assets.xcassets */; };
 		FB5250AB1C3CC02F00485C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5250A91C3CC02F00485C59 /* LaunchScreen.storyboard */; };
 		FB5250B51C3CE4F400485C59 /* CHPreviewAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5250B41C3CE4F400485C59 /* CHPreviewAssistant.m */; };
-		FB5250BA1C3D0E6500485C59 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5250B91C3D0E6500485C59 /* QuartzCore.framework */; };
 		FB6A1F9E1C3A475B00ABFAD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1F9D1C3A475B00ABFAD5 /* main.m */; };
 		FB6A1FA11C3A475B00ABFAD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1FA01C3A475B00ABFAD5 /* AppDelegate.m */; };
 		FB6A1FA41C3A475B00ABFAD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1FA31C3A475B00ABFAD5 /* ViewController.m */; };
@@ -27,6 +27,7 @@
 		FB07EFD61C3A627E00B6FA40 /* PeekDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeekDemoViewController.h; sourceTree = "<group>"; };
 		FB07EFD71C3A627E00B6FA40 /* PeekDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeekDemoViewController.m; sourceTree = "<group>"; };
 		FB07EFDA1C3A7BE300B6FA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB44C14D1C3E179E00AA06DF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FB5250991C3CC02F00485C59 /* 3DTouchImitates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchImitates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB52509C1C3CC02F00485C59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB52509E1C3CC02F00485C59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		FB5250AC1C3CC02F00485C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5250B31C3CE4F400485C59 /* CHPreviewAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPreviewAssistant.h; sourceTree = "<group>"; };
 		FB5250B41C3CE4F400485C59 /* CHPreviewAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPreviewAssistant.m; sourceTree = "<group>"; };
-		FB5250B91C3D0E6500485C59 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FB6A1F991C3A475B00ABFAD5 /* 3DTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6A1F9D1C3A475B00ABFAD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB6A1F9F1C3A475B00ABFAD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5250BA1C3D0E6500485C59 /* QuartzCore.framework in Frameworks */,
+				FB44C14E1C3E179E00AA06DF /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 		FB6A1F901C3A475B00ABFAD5 = {
 			isa = PBXGroup;
 			children = (
-				FB5250B91C3D0E6500485C59 /* QuartzCore.framework */,
+				FB44C14D1C3E179E00AA06DF /* AudioToolbox.framework */,
 				FB6A1F9B1C3A475B00ABFAD5 /* 3DTouchDemo */,
 				FB52509A1C3CC02F00485C59 /* 3DTouchImitates */,
 				FB6A1F9A1C3A475B00ABFAD5 /* Products */,
@@ -427,6 +427,7 @@
 				FB5250AE1C3CC02F00485C59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB6A1F941C3A475B00ABFAD5 /* Build configuration list for PBXProject "3DTouchDemo" */ = {
 			isa = XCConfigurationList;

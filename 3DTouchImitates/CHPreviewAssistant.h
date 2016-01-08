@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#ifndef SHOCKPROMPT
+#define SHOCKPROMPT
+#endif
 
 @protocol CHPreviewingDelegate;
 
@@ -29,8 +32,6 @@ NS_CLASS_AVAILABLE_IOS(7_0) @protocol CHPreviewing <NSObject>
 @protocol CHUIPreviewActionItem;
 NS_CLASS_AVAILABLE_IOS(7_0) @interface CHPreviewAssistant : NSObject
 
-@property (nonatomic, strong) UILongPressGestureRecognizer *longPressGesture;
-
 //- (NSArray <id <CHUIPreviewActionItem>> *)previewActionItems NS_AVAILABLE_IOS(7_0);
 
 // Registers a view controller to participate with 3D Touch preview (peek) and commit (pop).
@@ -38,8 +39,6 @@ NS_CLASS_AVAILABLE_IOS(7_0) @interface CHPreviewAssistant : NSObject
                                             sourceView:(UIView *)sourceView NS_AVAILABLE_IOS(7_0);
 
 - (void)unregisterForPreviewingWithContext:(id<CHPreviewing>)previewing NS_AVAILABLE_IOS(7_0);
-
-- (instancetype)initWithTarget:(UIView *)target;
 
 @end
 
@@ -80,15 +79,14 @@ NS_CLASS_AVAILABLE_IOS(7_0) @interface CHUIPreviewActionGroup : NSObject <CHUIPr
 #pragma mark - 暂时
 @interface CHEffectivePeekWindow : UIWindow
 
-@property (nonatomic, weak) UIViewController *previewController;
-/// 默认是从标题栏下到屏幕末的长度 - 48pt
-@property (nonatomic) CGFloat previewHeight;
-
-@property (nonatomic, strong) UIPanGestureRecognizer *panGesture;
-@property (nonatomic, weak) id<CHPreviewing> previewTarget;
-@property (nonatomic, strong) UIImageView *contentView;
-@property (nonatomic, strong) UIView *shadowView;
+@property (nonatomic, weak) UIViewController *previewViewController;
 
 - (instancetype)initWithPreviewing:(id<CHPreviewing>)preview;
 - (void)show;
+@end
+
+
+#pragma mark - UIViewController (CHPreviewActionItems)
+@interface UIViewController (CHPreviewActionItems)
+- (NSArray<id<CHUIPreviewActionItem>> *)CHPreviewActionItems;
 @end
