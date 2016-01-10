@@ -64,9 +64,9 @@
 {
     if (!_widnow) {
         _widnow = [[CHEffectivePeekWindow alloc] initWithPreviewing:nil];
-        _widnow.previewViewController = self;
-        [_widnow show];
     }
+    _widnow.previewViewController = self;
+    [_widnow show];
 }
 
 - (NSArray<id<CHUIPreviewActionItem>> *)CHPreviewActionItems

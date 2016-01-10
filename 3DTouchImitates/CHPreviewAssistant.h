@@ -83,6 +83,7 @@ NS_CLASS_AVAILABLE_IOS(7_0) @interface CHUIPreviewActionGroup : NSObject <CHUIPr
 
 - (instancetype)initWithPreviewing:(id<CHPreviewing>)preview;
 - (void)show;
+- (void)dismissWithBlock:(void(^)())block;
 @end
 
 

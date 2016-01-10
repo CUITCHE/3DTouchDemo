@@ -371,6 +371,15 @@ const CGFloat bottomMargin = 32;
     [self makeKeyAndVisible];
 }
 
+- (void)dismissWithBlock:(void (^)())block
+{
+    self.hidden = YES;
+    [self resignKeyWindow];
+    if (block) {
+        block();
+    }
+}
+
 #pragma mark - property
 - (void)setPreviewHeight:(CGFloat)previewHeight
 {
@@ -411,9 +420,12 @@ const CGFloat bottomMargin = 32;
         if (_needDismiss) {
             // TODO: 退出当前Window.
             [self hideActionSheetWithAnimation];
+            __weak typeof(self) __weakSelf = self;
             [UIView animateWithDuration:0.5 delay:0 usingSpringWithDamping:1 initialSpringVelocity:1 options:0 animations:^{
                 _shadowView.frame = _holdOriginFrame;
-            } completion:nil];
+            } completion:^(BOOL finished) {
+                [__weakSelf dismissWithBlock:nil];
+            }];
         } else {
             CGFloat space = 16;
             CGRect frame = _previewActionSheet.frame;
